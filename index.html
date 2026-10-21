@@ -1,1 +1,108 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roshan Pawar | Full Stack Developer</title>
+<meta name="description" content="Full Stack Developer with 5+ years of experience in Angular, React, Node.js, Python (FastAPI) and AWS. Banking APIs, IoT platforms and SaaS products.">
+<meta name="theme-color" content="#1a2332">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="brand" href="#top">R.</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
+    <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    <a class="btn small" href="#contact">Get in touch</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero wrap">
+  <p class="role">Full Stack Developer · <span id="typed"></span><i class="caret"></i></p>
+  <h1>Roshan Pawar</h1>
+  <p class="lead">Full Stack Developer with 5+ years of experience shipping banking APIs, IoT platforms and SaaS products end to end, from Angular and React screens to Node.js and Python services on AWS.</p>
+  <div class="cta">
+    <a class="btn" href="#contact">Hire me</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/roshan-pawar28/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn ghost" href="Roshan-Pawar-Resume-FullStack.pdf" download>Download CV</a>
+  </div>
+  <dl class="stats" id="heroStats"></dl>
+</section>
+
+<section class="wrap" id="about">
+  <h2 class="sec"><small>01</small>What I bring to the table</h2>
+  <div class="two">
+    <div class="copy">
+      <p>I build products from design to production support. My core is the JavaScript and TypeScript ecosystem, backed by Python (FastAPI) for data-heavy services and AWS for deployment.</p>
+      <p>Recently I have been building secure server-to-server banking integrations with retries, idempotency and audit logs. Before that I shipped IoT platforms handling live data from thousands of devices, and a workplace SaaS product with 12+ modules.</p>
+      <p>I review code, write tests, find root causes in live systems, and use AI tools such as Cursor, GitHub Copilot and the Claude API to move faster.</p>
+    </div>
+    <div class="metrics" id="metrics"></div>
+  </div>
+  <div class="grid" id="aboutCards"></div>
+</section>
+
+<section class="wrap" id="experience">
+  <h2 class="sec"><small>02</small>Where I've made an impact</h2>
+  <div class="timeline" id="jobs"></div>
+</section>
+
+<section class="wrap" id="skills">
+  <h2 class="sec"><small>03</small>Technical expertise</h2>
+  <div class="tabs" id="skillTabs" role="tablist"></div>
+  <div class="bars" id="skillBars"></div>
+  <h3 class="sub">Also experienced with</h3>
+  <div class="chips" id="more"></div>
+</section>
+
+<section class="wrap" id="projects">
+  <h2 class="sec"><small>04</small>What I've built</h2>
+  <div class="tabs" id="filters"></div>
+  <div class="grid" id="projectGrid"></div>
+</section>
+
+<section class="wrap" id="education">
+  <h2 class="sec"><small>05</small>Education &amp; certifications</h2>
+  <div class="two">
+    <div><h3 class="sub">Education</h3><div id="edu"></div></div>
+    <div>
+      <h3 class="sub">Certifications</h3><ul class="list" id="certs"></ul>
+      <h3 class="sub">Languages</h3><ul class="list"><li>English, professional proficiency</li><li>Hindi, native</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="contact">
+  <h2 class="sec"><small>06</small>Get in touch</h2>
+  <div class="two">
+    <div class="copy">
+      <p>I'm open to new full stack roles and freelance projects. If you are building a SaaS platform, a fintech integration or an IoT product, send me a message.</p>
+      <ul class="list contact">
+        <li><b>Email</b><a href="mailto:roshan78920@gmail.com">roshan78920@gmail.com</a></li>
+        <li><b>Phone</b><a href="tel:+917000298486">+91 7000298486</a></li>
+        <li><b>LinkedIn</b><a href="https://www.linkedin.com/in/roshan-pawar28/" target="_blank" rel="noopener">roshan-pawar28</a></li>
+        <li><b>Location</b><a href="https://maps.google.com/?q=Pune" target="_blank" rel="noopener">Pune, Maharashtra</a></li>
+      </ul>
+    </div>
+    <form id="form" class="form">
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="msg" rows="5" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+      <p class="note" id="note" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot wrap"><span>Designed &amp; built by Roshan Pawar</span><span>© <span id="yr"></span> All rights reserved.</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
