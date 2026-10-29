@@ -1,58 +1,65 @@
 /* ===== Content: edit this object to update the site ===== */
 const D = {
-  roles: ["Angular & React", "Node.js & Python", "AWS & Serverless", "IoT & Fintech"],
-  stats: [["5+", "Years of experience"], ["12+", "SaaS modules built"], ["45%", "Fewer DB reads with Redis"], ["85%+", "Test coverage, settlements"]],
-  metrics: [["60%", "Less guest processing time"], ["35%", "Shorter slow-query times"], ["<1s", "Dashboard response time"], ["3", "IoT products shipped"]],
+  roles: ["Angular & React", "Node.js & TypeScript", "AWS & Serverless", "IoT, Fintech & AI"],
+  stats: [["5+", "Years of experience"], ["12", "Modules in one SaaS product"], ["7", "Production projects delivered"], ["85%+", "Test coverage, settlements"]],
+  metrics: [["7", "Production projects delivered"], ["2", "Client IoT platforms led"], ["28", "Months on UrSpayce SaaS"], ["8.8/10", "MCA grade"]],
   about: [
-    ["Frontend", "Angular (v14 to v18+), React.js, TypeScript, RxJS, NgRx and Signals. Dashboards with role-based access and live data."],
-    ["Backend & APIs", "Node.js, Express.js, TypeScript and Python (FastAPI). REST APIs documented with OpenAPI/Swagger, plus WebSockets."],
-    ["Cloud & Serverless", "AWS Lambda, API Gateway, DynamoDB, S3, SQS, SNS, ECS/Fargate and EKS, deployed through CI/CD."],
-    ["IoT & Real-time", "Telemetry from GPS, battery and animal-health sensors, FOTA firmware updates and live dashboards."],
-    ["Security & Payments", "OAuth2, JWT, RBAC, encrypted payloads, rate limits and audit logs. Idempotent, retry-safe payment flows."],
-    ["AI-augmented work", "Cursor, GitHub Copilot and the Claude API. Built a natural-language analytics tool on AWS Bedrock."]
+    ["Frontend", "Angular, React.js, TypeScript, RxJS and Highcharts. Role-based dashboards, dynamic forms and real-time data screens."],
+    ["Backend & APIs", "Node.js, Express.js and TypeScript, plus Python and FastAPI. REST APIs, microservices and third-party integrations."],
+    ["Cloud & Serverless", "AWS Lambda, API Gateway, DynamoDB, S3, SQS, EC2 and CloudWatch, shipped through CI/CD with Docker."],
+    ["IoT & Real-time", "Telemetry from GPS collars, batteries and sensors, with WebSockets and Socket.io for live dashboards."],
+    ["Security & Banking", "S2S bank integrations with JWT, OAuth2, encrypted payloads, rate limiting, audit logs and idempotent payments."],
+    ["AI-powered apps", "AWS Bedrock and LLM APIs for analytics and insights. Certified in Claude Code with generative AI agents."]
   ],
   jobs: [
     { role: "Full Stack Developer", co: "Virtual Gain Technologies Pvt. Ltd.", loc: "Pune", date: "Apr 2026 - Present", cur: 1,
-      pts: ["Build and maintain secure server-to-server (S2S) banking APIs that connect the platform with banks and financial institutions.",
-        "Wrote Node.js, Express.js and TypeScript services with retries, idempotency checks and automatic rollbacks for reliable payments.",
-        "Added encrypted payloads, JWT/OAuth2 authentication, API rate limits and audit logs.",
-        "Wrote Jest unit and integration tests with over 85% coverage on settlement modules.",
-        "Review code, deploy to production and trace root causes in live banking integrations, including slow requests.",
-        "Built Angular dashboards with role-based access to track transactions, settlement status and API errors."],
-      tags: ["Node.js", "Express.js", "TypeScript", "Angular", "Jest", "OAuth2", "JWT", "Redis", "Docker", "GitHub Actions"] },
+      pts: ["Develop and maintain secure server-to-server (S2S) banking APIs that integrate with banks and financial institutions such as Touras.",
+        "Built scalable Node.js, Express.js and TypeScript services with retries, idempotency checks and automated transaction rollbacks.",
+        "Enforce security with encrypted payloads, JWT and OAuth2 authentication, API rate limiting and comprehensive audit logs.",
+        "Wrote Jest unit and integration tests, reaching over 85% code coverage on settlement modules.",
+        "Run code reviews and production deployments, and resolve live integration issues including performance bottlenecks and slow API responses.",
+        "Build Angular dashboards with role-based access control to monitor transaction flows, settlement status and API error metrics."],
+      tags: ["Node.js", "Express.js", "TypeScript", "Angular", "Jest", "JWT", "OAuth2", "RBAC"] },
     { role: "Software Engineer - I", co: "Vanix Technologies Pvt. Ltd.", loc: "Hyderabad", date: "Jan 2024 - Apr 2026",
-      pts: ["Built full-stack features for three IoT products: Device Management, Battery Management and Cattle Monitoring.",
-        "Built serverless backends on AWS Lambda, API Gateway, DynamoDB and S3 with dashboard response times under one second.",
-        "Wrote Python and FastAPI services for sensor data, device diagnostics and health scores, served through documented REST APIs.",
-        "Added Redis caching for frequently read device data, cutting database reads by 45%.",
-        "Built remote tools to send firmware updates (FOTA) and restart many devices at once.",
-        "Improved Angular performance with OnPush change detection and RxJS so live screens use less CPU."],
-      tags: ["Python", "FastAPI", "AWS Lambda", "DynamoDB", "Angular", "RxJS", "Redis", "Docker", "Socket.io", "CI/CD"] },
-    { role: "Frontend / Full Stack Developer", co: "UrSpayce Inc.", loc: "Bhopal", date: "Jun 2021 - Dec 2023",
-      pts: ["Helped design the architecture of a Workplace Management SaaS product with 12+ modules, including Visitor Management, Asset Tracking and Desk Booking.",
-        "Built Node.js, Express.js and MongoDB REST APIs that automated check-ins and cut guest processing time by 60%.",
-        "Tuned MongoDB aggregation queries and indexes, reducing slow query times by 35%.",
-        "Built interactive floor-plan maps and analytics dashboards in Angular for real-time space usage.",
-        "Created reusable, lazy-loaded UI components that work on desktops, tablets and check-in kiosks."],
-      tags: ["Angular", "Node.js", "Express.js", "MongoDB", "TypeScript", "SCSS", "Microservices"] }
+      pts: ["Delivered full-stack enterprise SaaS and IoT applications with Angular, React.js, TypeScript, Node.js, Express.js and AWS.",
+        "Served as Technical Team Lead and client point of contact on the Luminous and Jiotronik IoT platforms: requirements, sprint planning, task allocation and delivery.",
+        "Designed and maintained scalable backend microservices, REST APIs and database integrations.",
+        "Created reusable frontend components, dynamic forms and responsive interfaces following clean coding standards.",
+        "Implemented authentication, authorization and RBAC, and integrated third-party APIs.",
+        "Deployed on AWS, supported production releases and monitored applications. Improved performance with lazy loading and API optimization.",
+        "Contributed to technical discussions, code reviews, testing and CI/CD within Agile/Scrum teams."],
+      tags: ["Angular", "React.js", "Node.js", "Python", "FastAPI", "AWS Lambda", "DynamoDB", "Redis", "Socket.io", "Highcharts"] },
+    { role: "Front End Software Engineer", co: "UrSpayce Inc.", loc: "Bhopal", date: "Sep 2021 - Dec 2023",
+      pts: ["Built scalable, responsive enterprise SaaS applications with Angular, TypeScript, JavaScript, Node.js, Express.js, HTML5, CSS3 and SCSS.",
+        "Designed and built backend microservices and REST APIs for business workflows, authentication, authorization and database operations.",
+        "Created reusable Angular components, dynamic forms and role-based dashboards for Visitor Management, Desk Booking, Meeting Room Booking, Mailroom, Asset Tracking and Facility Management.",
+        "Integrated the frontend with backend services and third-party APIs for seamless data flow and real-time updates.",
+        "Deployed and managed cloud applications on AWS with continuous monitoring.",
+        "Optimized performance through lazy loading, efficient API handling and component reuse.",
+        "Worked in Agile/Scrum teams on system design, testing, code reviews, CI/CD and the full SDLC."],
+      tags: ["Angular", "TypeScript", "Node.js", "Express.js", "SCSS", "AWS", "Microservices"] }
   ],
   skills: {
-    "Backend & APIs": [["Node.js / Express.js", 92], ["TypeScript", 90], ["Python / FastAPI", 82], ["REST & OpenAPI", 90], ["WebSockets / Socket.io", 85], ["Microservices", 84]],
-    "Frontend": [["Angular (v14 to v18+)", 94], ["React.js", 82], ["RxJS / NgRx / Signals", 88], ["TypeScript / ES6+", 91], ["HTML5 / CSS3 / SCSS", 90], ["Responsive Design", 90]],
-    "Databases": [["MongoDB / Mongoose", 90], ["PostgreSQL / MySQL", 82], ["DynamoDB", 82], ["Redis caching", 85], ["Indexing & query tuning", 85]],
-    "Cloud & DevOps": [["AWS Lambda / API Gateway", 88], ["ECS / Fargate / EKS", 78], ["Docker", 85], ["GitHub Actions / GitLab CI", 85], ["SQS / SNS", 82], ["CloudWatch", 78]],
-    "Testing & Security": [["Jest / Jasmine / Karma", 87], ["Integration & E2E testing", 82], ["OAuth2 / JWT", 88], ["RBAC", 88], ["Rate limiting & encryption", 84]],
-    "AI-augmented dev": [["Claude API", 82], ["AWS Bedrock", 78], ["Cursor AI", 88], ["GitHub Copilot", 88], ["Prompt safety & caching", 76]]
+    "Backend & APIs": [["Node.js / Express.js", 92], ["TypeScript / JavaScript", 91], ["REST API design", 91], ["Microservices", 85], ["API integration", 88], ["Python / FastAPI", 80], ["System design", 82]],
+    "Frontend": [["Angular", 94], ["React.js", 84], ["RxJS", 88], ["HTML5 / CSS3 / SCSS", 90], ["Highcharts dashboards", 82], ["Performance (lazy loading)", 86]],
+    "Databases": [["MongoDB", 90], ["PostgreSQL / MySQL", 82], ["DynamoDB", 84], ["Redis caching", 86]],
+    "Cloud & DevOps": [["AWS Lambda / API Gateway", 88], ["AWS serverless architecture", 88], ["S3 / SQS / EC2", 84], ["CloudWatch", 80], ["Docker", 85], ["GitHub Actions / GitLab CI", 85]],
+    "Testing & Security": [["Jest / unit testing", 88], ["Playwright automation", 78], ["JWT / OAuth2", 88], ["Authorization & RBAC", 88], ["Authentication protocols", 86]],
+    "AI & Practices": [["LLM APIs", 82], ["AWS Bedrock", 78], ["Claude Code", 85], ["Agile / Scrum", 90], ["SDLC & code reviews", 90]]
   },
-  more: ["Idempotent payments", "Event-driven architecture", "12-Factor apps", "FOTA updates", "Code reviews", "Agile / Scrum", "JIRA", "Postman", "Swagger UI", "Git / GitHub / GitLab", "Kubernetes (EKS)", "Serverless Framework", "Bootstrap", "Angular Material"],
+  more: ["Git", "GitLab", "Socket.io & WebSockets", "GraphQL", "Streamlit", "Google Maps API", "Highcharts", "Performance management", "Technical team leadership", "Client communication", "Sprint planning", "Idempotent payment flows"],
   projects: [
-    { t: "Banking Gateway for Fund Transfers", cat: "FinTech", d: "Encrypted fund transfers, balance checks and real-time status webhooks, with timeout recovery so data stays correct when bank responses are late or fail. Angular portal for transactions, PDF receipts and disputes.", imp: "Structured logging, RBAC and CI-tested modules", tags: ["Node.js", "TypeScript", "Angular", "Jest", "Redis", "Docker", "Webhooks"] },
-    { t: "IoT Fleet & Telemetry Platform", cat: "IoT", d: "Collects GPS location, battery voltage, temperature and animal health data from collars and sensors. Dashboards update live over Socket.io and API Gateway WebSockets.", imp: "Live data from thousands of devices, dashboards under 1s", tags: ["Python", "FastAPI", "AWS Lambda", "SQS", "SNS", "DynamoDB", "ECS", "Angular"] },
-    { t: "Workplace Management SaaS", cat: "SaaS", d: "Frontend for a 12+ module product covering Visitor Management, Asset Tracking and Desk Booking, with QR-code contactless check-in and asset allocation.", imp: "60% less guest processing time", tags: ["Angular", "Node.js", "Express.js", "MongoDB", "Microservices"] },
-    { t: "AI-Powered Analytics Tool", cat: "AI", d: "Lets non-technical users ask questions about company data in plain English and get answers from the database. Includes input checks, prompt safety rules and caching to control API costs.", imp: "AWS Bedrock and Claude API behind Node.js services", tags: ["AWS Bedrock", "Claude API", "Node.js", "TypeScript", "Redis", "Angular"] }
+    { t: "Banking Solutions", cat: "FinTech", dur: "6 months · Virtual Gain", d: "Backend services for enterprise banking, focused on secure S2S third-party bank API integrations. REST APIs for reliable data exchange, with authentication, request validation, error handling and async processing. Tuned response times through refactoring and profiling.", imp: "Jest unit and integration tests, 85%+ coverage on settlements", tags: ["Node.js", "TypeScript", "Express.js", "Jest", "JWT", "OAuth2"] },
+    { t: "Luminous IoT Dashboard Platform", cat: "IoT", dur: "5 months · Client project", d: "Cloud SaaS for real-time device monitoring, battery health tracking, analytics and remote device management. I led delivery as Technical Team Lead and client point of contact, with Highcharts dashboards and REST APIs for telemetry and integrations.", imp: "Led requirements, sprint planning and task allocation", tags: ["Angular", "TypeScript", "Highcharts", "Node.js", "Express.js", "AWS"] },
+    { t: "Jiotronik Asset Monitoring Platform", cat: "IoT", dur: "7 months · Client project", d: "Client platform for real-time asset tracking, device monitoring, operational analytics and central asset management. I worked as Full Stack Developer and Technical Team Lead and was the single point of contact for the client.", imp: "Frontend dashboards, backend APIs, telemetry and reporting", tags: ["Angular", "TypeScript", "Node.js", "Express.js", "AWS", "Data visualization"] },
+    { t: "Cattle Monitoring System", cat: "IoT", dur: "15 months · Vanix", d: "Tracks livestock location, health and activity from GPS collars and sensors. Telemetry pipeline for GPS, battery, temperature, connectivity and health data, with FastAPI and Lambda computing diagnostics and health scores. Live dashboards over Socket.io and API Gateway WebSockets, Google Maps geofencing alerts and LLM-powered insights.", imp: "Coordinated frontend, backend, AI/ML, DevOps and firmware teams", tags: ["Python", "FastAPI", "Node.js", "Angular", "Lambda", "DynamoDB", "MongoDB", "SQS", "Streamlit"] },
+    { t: "Battery Monitoring IoT System", cat: "IoT", dur: "15 months · Vanix", d: "Real-time monitoring, remote device management and analytics for connected batteries. Angular dashboards chart voltage, current, temperature, State of Charge, connectivity and history. Lambda processes data, DynamoDB stores telemetry, and SQS handles bulk device operations.", imp: "WebSockets for live updates and Redis for faster dashboards", tags: ["Node.js", "TypeScript", "Angular", "Lambda", "DynamoDB", "S3", "SQS", "Redis"] },
+    { t: "Device Management Software", cat: "IoT", dur: "13 months · Vanix", d: "Cloud platform for monitoring and remotely managing connected devices, built with the same serverless AWS and Angular stack as the other Vanix IoT products.", imp: "Remote device operations at fleet scale", tags: ["Angular", "Node.js", "AWS Lambda", "DynamoDB", "SQS"] },
+    { t: "UrSpayce Workplace Management", cat: "SaaS", dur: "28 months · UrSpayce", d: "Enterprise workplace SaaS with 12 modules: Visitor Management, Desk and Meeting Room Booking, Mailroom and Delivery, Asset Tracking, Facility Management and Workplace Analytics. Automated check-ins and reservations, with RBAC, secure authentication and real-time data.", imp: "Responsive dashboards, microservices and AWS deployment", tags: ["Angular", "React.js", "Node.js", "Express.js", "TypeScript", "AWS"] },
+    { t: "AI-Powered Analytics Tool", cat: "AI", dur: "AWS Bedrock · LLM APIs", d: "Lets non-technical users ask questions about company data in plain English and get answers from the database. Includes input checks, prompt safety rules and Redis caching to control API costs.", imp: "Bedrock and LLM APIs behind Node.js services", tags: ["AWS Bedrock", "LLM APIs", "Node.js", "TypeScript", "Redis", "Angular"] }
   ],
-  edu: [["Master of Computer Applications (MCA)", "Technocrats Institute of Technology, Bhopal", "2021"], ["Bachelor of Computer Applications (BCA)", "Vikramaditya Group of Institutions, Bhopal", "2018"]],
-  certs: ["Google AI Professional Certificate (Coursera)", "IBM Full Stack Software Developer (Coursera)", "Generative AI Software Engineering (Coursera)", "AWS Cloud Solutions Architect Specialization (Coursera)", "Google Project Management (Coursera)", "Software Design and Architecture (Coursera)"]
+  edu: [["MCA | Software Engineering", "Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal", "2021 · Grade 8.8/10"], ["BCA | Software Engineering", "Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya, Bhopal", "2018 · Grade 7.8/10"]],
+  certs: ["Google AI Professional Certificate", "AWS Cloud Practitioner Essentials", "Claude Code: Software Engineering with Generative AI Agents", "AI for Data Analysis", "AI for Writing and Communicating", "Cybersecurity and the Internet of Things", "Modern JavaScript: ES6 Basics"]
 };
 
 /* ===== Helpers ===== */
@@ -85,7 +92,7 @@ tabs($("#skillTabs"), Object.keys(D.skills), (k) => {
   $("#skillBars").innerHTML = D.skills[k].map(([n, v]) => `<div class="bar"><div>${n}<span>${v}%</span></div><i style="--w:${v}%"></i></div>`).join("");
 });
 tabs($("#filters"), ["All", ...new Set(D.projects.map((p) => p.cat))], (c) => {
-  $("#projectGrid").innerHTML = D.projects.filter((p) => c === "All" || p.cat === c).map((p) => `<article class="card"><div class="cat">${p.cat}</div><h3>${p.t}</h3><p>${p.d}</p><p class="imp">${p.imp}</p>${tags(p.tags)}</article>`).join("");
+  $("#projectGrid").innerHTML = D.projects.filter((p) => c === "All" || p.cat === c).map((p) => `<article class="card"><div class="cat">${p.cat} · ${p.dur}</div><h3>${p.t}</h3><p>${p.d}</p><p class="imp">${p.imp}</p>${tags(p.tags)}</article>`).join("");
 });
 
 /* ===== Typed role line ===== */
@@ -136,11 +143,25 @@ function setMenu(open) {
 burger.addEventListener("click", () => setMenu(!menu.classList.contains("open")));
 menu.addEventListener("click", (e) => { if (e.target.closest("a")) setMenu(false); });
 
-/* ===== Contact form: opens the visitor's email app ===== */
-$("#form").addEventListener("submit", (e) => {
+/* ===== Contact form: delivers messages to the inbox below via FormSubmit ===== */
+const INBOX = "roshan112895@gmail.com";
+$("#form").addEventListener("submit", async (e) => {
   e.preventDefault();
-  const f = new FormData(e.target);
-  const body = `${f.get("msg")}\n\nFrom: ${f.get("name")} (${f.get("email")})`;
-  location.href = `mailto:roshan78920@gmail.com?subject=${encodeURIComponent("Portfolio message from " + f.get("name"))}&body=${encodeURIComponent(body)}`;
-  $("#note").textContent = "Your email app should open with the message ready to send.";
+  const form = e.target, btn = form.querySelector("button"), note = $("#note"), f = new FormData(form);
+  if (f.get("_honey")) return;
+  f.append("_subject", "Portfolio message from " + f.get("name"));
+  f.append("_template", "table");
+  f.append("_captcha", "false");
+  btn.disabled = true; btn.textContent = "Sending...";
+  note.textContent = "";
+  try {
+    const r = await fetch("https://formsubmit.co/ajax/" + INBOX, { method: "POST", headers: { Accept: "application/json" }, body: f });
+    const j = await r.json();
+    if (!r.ok || j.success === "false") throw new Error("send failed");
+    form.reset();
+    note.textContent = "Thanks! Your message was sent. I'll get back to you soon.";
+  } catch (err) {
+    note.textContent = "Sorry, the message could not be sent. Please email " + INBOX + " directly.";
+  }
+  btn.disabled = false; btn.textContent = "Send message";
 });
